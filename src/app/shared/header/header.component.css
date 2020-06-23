@@ -8,16 +8,16 @@ body {
 }
 
 .navbar-brand img {
-  height: 2.9em;
-}
+    height: 2.9em;
+  }
 .navbar {
-  font-size: 1.1rem;
+    font-size: 1.0rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
 .nav-item {
-  padding: 0.4rem;
-}
+    padding: 0.4rem;
+  }
 .nav-link {
   color: white !important;
 }

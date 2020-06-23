@@ -1,0 +1,103 @@
+.carousel-inner{
+    max-height: 40rem!important;
+}
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+transition: transform 2s ease;
+}
+
+.carousel-indicators li{
+    width: 50px;
+    height: 5px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+  }
+  
+  .carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }
+  @media(max-width:776px){
+    .carousel-caption {
+        top: 60%;
+      }
+    
+      .carousel-caption h1 {
+        font-size: 300%;
+      }
+      .carousel-caption h3 {
+        font-size: 200%;
+      }
+      .carousel-caption .btn{
+          font-size: 80%;
+          padding: 4px 8px;
+      } 
+}
+@media(max-width:716px){
+    .carousel-caption {
+        top: 40%;
+      }
+    
+      .carousel-caption h1 {
+        font-size: 300%;
+      }
+      .carousel-caption h3 {
+        font-size: 200%;
+      }
+      .carousel-caption .btn{
+          font-size: 80%;
+          padding: 4px 8px;
+      } 
+}
+  @media(max-width:576px){
+    .carousel-caption {
+        top: 40%;
+      }
+    
+      .carousel-caption h1 {
+        font-size: 200%;
+      }
+      .carousel-caption h3 {
+        font-size: 100%;
+      }
+      .carousel-caption .btn{
+          font-size: 80%;
+          padding: 4px 8px;
+      } 
+}
+@media(max-width:300){
+    .carousel-caption {
+        top: 20%;
+      }
+      .carousel-caption h1 {
+        font-size: 100%;
+      }
+      .carousel-caption h3 {
+        font-size: 600%;
+      }
+      .carousel-caption .btn{
+          font-size: 80%;
+          padding: 2px 6px;
+      }
+      .carousel-caption h1 {
+        font-size: 200%;
+      }
+      .carousel-caption h3 {
+        font-size: 130%;
+        font-weight: 250;
+        padding-bottom: 1rem;
+      }
+}
