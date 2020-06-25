@@ -1,0 +1,42 @@
+
+
+.bigicon, .b{
+    
+    color: white;
+    background:#343a40 ;
+}
+.btn-primary,.btn-outline-primary,.btn-light  {
+    border-radius: 40px;
+ 
+}
+.fas {
+    font-size: 40px;
+    color: #343a40;
+}
+.card-header {
+    border-radius: 10px;
+}
+
+ul.social {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+  }
+  ul.social li {
+    margin: auto;
+  }
+  .jumbotron .fab {
+    font-size: 2.5rem;
+    margin: 0 1rem;
+  }
+  .jumbotron .fab:hover {
+    color: grey !important;
+  }
+  .jumbotron {
+    background: linear-gradient(to right, #f2f2f2, #fbfbfb);
+    padding: 1rem 0 0.5rem;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, .1);
+  }

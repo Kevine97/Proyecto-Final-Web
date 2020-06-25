@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { PortafolioComponent } from './pages/portafolio/portafolio.component';
+import { RetratoComponent } from './pages/retrato/retrato.component';
+import { PruductoComponent } from './pages/pruducto/pruducto.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    PortafolioComponent
+    PortafolioComponent,
+    RetratoComponent,
+    PruductoComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,

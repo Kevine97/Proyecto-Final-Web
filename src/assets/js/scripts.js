@@ -6,3 +6,7 @@ $(function(){
   $("#onload").remove();
   }, 1000);
   });
+
+  $(function () {
+    $('.nav-collapse').toggle();
+ });

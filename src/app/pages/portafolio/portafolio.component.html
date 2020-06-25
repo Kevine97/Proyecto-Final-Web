@@ -14,7 +14,7 @@
           <button type="button" class="btn btn-primary btn-lg mr-2">
             Contratar Ahora
           </button>
-          <button type="button" class="btn btn-outline-primary btn-lg">
+          <button routerLink="retrato" type="button" class="btn btn-outline-primary btn-lg">
             Ver Fotografias
           </button>
         </div>
@@ -87,7 +87,7 @@
   <!--Imagenes de muestra-->
   <div class="container-fluid padding">
     <div class="row padding">
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <div class="card my-2">
           <div class="inner">
             <img class="card-img-top" src="./assets/img/imagen4.jpeg" />
@@ -171,6 +171,13 @@
           <div class="card-body text-center"></div>
         </div>
       </div>
+      <div class="col text-center">
+        <a
+          routerLink="retrato"
+          class="btn btn-primary btn-lg my-3 "
+          >Ver mas Fotosgrafia </a>
+      </div>
+       
     </div>
   </div>
 
@@ -236,15 +243,11 @@
   </div>
   <!--Precio-->
   <div class="container">
-    <div class="">
-      <div class="row justify-content-center my-5 text-center">
-        <div class="col-md-6 col-lg-4 my-4">
-          <div
-            class="card text-white bg-primary text-center my-2 "
-            style="width: 18rem;"
-          >
-            <div class="card-body">
-              <div>
+    <div class="row justify-content-center my-5 text-center">
+      <div class="col-md-6 col-lg-4 my-4">
+        <div class="card  text-white bg-primary text-center my-2" >
+          <div class="card-body text-center">
+             <div>
                 <span class="h1">$</span
                 ><span class="display-1 align-middle">9</span>
               </div>
@@ -255,54 +258,50 @@
                 industry.
               </p>
               <a href="#" class="btn btn-light">Contratar Ahora</a>
-            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-md-6 col-lg-4 my-4">
-          <div
-            class="card text-white bg-primary text-center my-2"
-            style="width: 18rem;"
-          >
-            <div class="card-body">
-              <div>
-                <span class="h1">$</span
-                ><span class="display-1 align-middle">15</span>
-              </div>
-              <p class="h1">STANDAR</p>
+      <div class="col-md-6 col-lg-4 my-4">
+        <div class="card  text-white bg-primary text-center my-2">
+          <div class="card-body text-center">
+            <div>
+              <span class="h1">$</span
+              ><span class="display-1 align-middle">15</span>
+            </div>
+            <p class="h1">STANDAR</p>
               <h4 class="card-title py-2">Lorem Ipsum</h4>
               <p class="card-text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
               <a href="#" class="btn btn-light">Contratar Ahora</a>
-            </div>
           </div>
         </div>
+      </div>
 
-        <div class="col-md-6 col-lg-4 my-4">
-          <div
-            class="card text-white bg-primary text-center my-2"
-            style="width: 18rem;"
-          >
-            <div class="card-body">
-              <div>
-                <span class="h1">$</span
-                ><span class="display-1 align-middle">20</span>
-              </div>
-              <p class="h1">PREMIUM</p>
+      <div class="col-md-6 col-lg-4 my-4">
+        <div class="card  text-white bg-primary text-center my-2">
+          <div class="card-body text-center">
+            <div>
+              <span class="h1">$</span
+              ><span class="display-1 align-middle">20</span>
+            </div>
+            <p class="h1">PREMIUM</p>
               <h4 class="card-title py-2">Lorem Ipsum</h4>
               <p class="card-text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry.
               </p>
               <a href="#" class="btn btn-light">Contratar Ahora</a>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!--###################################################################################################################-->
   <div class="col-12 text-center mt-5">
     <h1 class="display-4 pt-4">Productos</h1>
     <div class="border-top border-dark w-50 mx-auto my-3">
@@ -319,22 +318,41 @@
            <img src="../../../assets/img/imagen16.jpeg" style="border-radius: 20px;" alt="" class="w-100">
            <p>Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.</p>
-            <a href="" class="btn btn-outline-dark btn-md ">Comprar Ahora</a>
+            <div>
+              <span class="h4">$</span
+              ><span class="display-4 align-middle">500</span>
+            </div>
+            <a href="" class="btn btn-outline-dark btn-md my-3">Comprar Ahora</a>
         </div>
         <div class="col-md-6 col-lg-4 my-4">
           <h4 class="my-3">Lorem Ipsum</h4>
           <img src="../../../assets/img/imagen17.jpeg" style="border-radius: 20px;" alt="" class="w-100">
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting
            industry.</p>
-           <a href="" class="btn btn-outline-dark btn-md ">Comprar Ahora</a>
+           <div>
+            <span class="h4">$</span
+            ><span class="display-4 align-middle">600</span>
+          </div>
+           <a href="" class="btn btn-outline-dark btn-md my-3 ">Comprar Ahora</a>
        </div>
        <div class="col-md-6 col-lg-4 my-4">
         <h4 class="my-3">Lorem Ipsum</h4>
         <img src="../../../assets/img/imagen18.jpeg" style="border-radius: 20px;" alt="" class="w-100">
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting
          industry.</p>
-         <a href="" class="btn btn-outline-dark btn-md ">Comprar Ahora</a>
+         <div>
+          <span class="h4">$</span
+          ><span class="display-4 align-middle">200</span>
+        </div>
+         <a href="" class="btn btn-outline-dark btn-md my-3 ">Comprar Ahora</a>
      </div>
+    
+      </div>
+      <div class="col text-center">
+        <a
+        routerLink="producto"
+          class="btn btn-primary btn-lg my-1 "
+          >Ver mas Productos </a>
       </div>
     </div>
 </body>
